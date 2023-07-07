@@ -13,6 +13,7 @@ def merge(nums1, m: int, nums2, n: int) -> None:
             elif n2idx >= n:
                  nums1[i] = num1cpy[n1idx]
                  n1idx += 1
+                 
             elif n1idx < m and n2idx < n and num1cpy[n1idx] >= nums2[n2idx]:
                 nums1[i] = nums2[n2idx]
                 n2idx += 1
