@@ -26,3 +26,13 @@ class Solution:
             next_value += 1
 
         return max_match
+    
+
+'''
+Adding vowels into a dictionary would be better than creating a function
+so then we oculda done:
+
+vowels = {'a', 'e', 'i', 'o', 'u'}
+cur_match += int(s[i] in vowels)
+
+'''
